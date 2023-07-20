@@ -1,6 +1,6 @@
-﻿<Properties StartupConfiguration="{DD40575B-CC7F-4EF4-B4ED-4A337F611CAB}|https">
+﻿<Properties StartupConfiguration="Run All ">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.loginService FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.loginService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.courseworkApiGateway PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="courseworkApiGateway/Properties/launchSettings.json">
@@ -21,13 +21,15 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="courseworkBackend" expanded="True" selected="True" />
+          <Node name="courseworkBackend" expanded="True">
+            <Node name="courseworkApiGateway" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.workoutService FirstBuild="True" PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.predictionService FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.workoutService PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.ItemProperties.predictionService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.ItemProperties.courseworkBackend PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
