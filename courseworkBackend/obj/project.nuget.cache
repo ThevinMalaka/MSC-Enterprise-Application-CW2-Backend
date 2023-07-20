@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ggsF1mmdfAhoz9+3ayTmrTVBhSc4N6WtkHVAM5B9ENvcp3vZYz+AuCb+IVDkSdJzRgHR/0VEO9yW9YLLzG0ibA==",
+  "dgSpecHash": "9GHSuf7N+SDFQ5EGszFTWiOkdp1AuV1jrePNS3ZIzRrSJjwvQgsXdcsa2cPWvhxQdQ4v0lUPVcKmqhodduogBA==",
   "success": true,
   "projectFilePath": "/Users/thevinm/Documents/Thevin/MSC-Course-Work/5. Enterprise Application Development - 7SENG001C.3 /CW2/projects/courseworkBackend/courseworkBackend/courseworkBackend.csproj",
   "expectedPackageFiles": [
@@ -8,9 +8,9 @@
     "/Users/thevinm/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/7.0.8/microsoft.aspnetcore.authentication.jwtbearer.7.0.8.nupkg.sha512",
     "/Users/thevinm/.nuget/packages/microsoft.aspnetcore.openapi/7.0.7/microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
     "/Users/thevinm/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
-    "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore/7.0.8/microsoft.entityframeworkcore.7.0.8.nupkg.sha512",
-    "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.8/microsoft.entityframeworkcore.abstractions.7.0.8.nupkg.sha512",
-    "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.8/microsoft.entityframeworkcore.analyzers.7.0.8.nupkg.sha512",
+    "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore/7.0.9/microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
+    "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.9/microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
+    "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.9/microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
     "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore.design/7.0.8/microsoft.entityframeworkcore.design.7.0.8.nupkg.sha512",
     "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.8/microsoft.entityframeworkcore.inmemory.7.0.8.nupkg.sha512",
     "/Users/thevinm/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.8/microsoft.entityframeworkcore.relational.7.0.8.nupkg.sha512",
