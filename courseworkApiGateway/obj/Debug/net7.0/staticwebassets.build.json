@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CmJX3xrdxyburyzBpV/SIvUe1JmI+T/T1V+5nOGzxms=",
+  "Source": "courseworkApiGateway",
+  "BasePath": "_content/courseworkApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
