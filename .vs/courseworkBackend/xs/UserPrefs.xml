@@ -1,46 +1,49 @@
-﻿<Properties StartupConfiguration="{86F40F72-A964-4680-946B-6598703D97CE}|https">
-  <MonoDevelop.Ide.Workbench ActiveDocument="courseworkApiGateway/Properties/launchSettings.json">
+﻿<Properties StartupConfiguration="Run All ">
+  <MonoDevelop.Ide.Workbench ActiveDocument="courseworkApiGateway/Program.cs">
     <Files>
-      <File FileName="courseworkApiGateway/Properties/launchSettings.json" Line="1" Column="1" />
-      <File FileName="courseworkApiGateway/ocelot.json" />
-      <File FileName="courseworkApiGateway/Program.cs" />
-      <File FileName="courseworkBackend/Controllers/UserController.cs" />
-      <File FileName="courseworkBackend/Controllers/UserWorkoutEnrollmentController.cs" />
-      <File FileName="courseworkBackend/Controllers/WorkoutController.cs" />
-      <File FileName="courseworkBackend/Controllers/WorkoutPlanController.cs" />
-      <File FileName="courseworkBackend/DTO/ReportDTO.cs" />
-      <File FileName="courseworkBackend/Entities/CheatMealModel.cs" />
-      <File FileName="courseworkBackend/Entities/UserWorkoutModel.cs" />
-      <File FileName="courseworkBackend/Entities/UserModel.cs" />
-      <File FileName="courseworkBackend/Entities/UserWorkoutEnrollmentModel.cs" />
+      <File FileName="courseworkApiGateway/ocelot.json" Line="40" Column="43" />
+      <File FileName="userService/Program.cs" Line="22" Column="29" />
+      <File FileName="userService/Data/ApplicationDbContext.cs" Line="13" Column="27" />
+      <File FileName="userService/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="userService/appsettings.json" Line="1" Column="1" />
+      <File FileName="userService/Entities/UserModel.cs" Line="19" Column="6" />
+      <File FileName="userService/Controllers/UserController.cs" Line="36" Column="37" />
+      <File FileName="userService/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="userService/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="courseworkApiGateway/Program.cs" Line="96" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="courseworkBackend" expanded="True">
-            <Node name="courseworkApiGateway" selected="True" />
+          <Node name="courseworkBackend" expanded="True" selected="True">
+            <Node name="userService">
+              <Node name="Migrations" expanded="True" />
+            </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.predictionService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.ItemProperties.courseworkApiGateway PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <DisabledProjects>
     <String>userLoginService/loginService.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.userService FirstBuild="True" PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.loginService PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.ItemProperties.userService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.ItemProperties.courseworkBackend PreferredExecutionTarget="/Applications/Firefox.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Run All " Name="Run All ">
       <Items>
         <StartupItem ItemId="{91E83E12-1B0B-4F2A-BEE9-26E77ECD28EE}" ItemName="courseworkApiGateway" ConfigurationId="https" />
-        <StartupItem ItemId="{246832E7-1215-4A13-B250-3FCF3F0512F4}" ItemName="courseworkBackend" ConfigurationId="https" />
-        <StartupItem ItemId="{2B12F173-3B83-488B-B9B8-941BEBEE1417}" ItemName="loginService" ConfigurationId="https" />
         <StartupItem ItemId="{960160E9-B4A6-45D7-B66C-BA53091AA26A}" ItemName="predictionService" ConfigurationId="https" />
+        <StartupItem ItemId="{86F40F72-A964-4680-946B-6598703D97CE}" ItemName="userService" ConfigurationId="https" />
         <StartupItem ItemId="{DD40575B-CC7F-4EF4-B4ED-4A337F611CAB}" ItemName="workoutService" ConfigurationId="https" />
       </Items>
     </MultiItemSolutionRunConfiguration>
