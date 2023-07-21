@@ -1,8 +1,4 @@
-﻿<Properties StartupConfiguration="Run All ">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.loginService PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.courseworkApiGateway PreferredExecutionTarget="/Applications/Firefox.app" />
+﻿<Properties StartupConfiguration="{86F40F72-A964-4680-946B-6598703D97CE}|https">
   <MonoDevelop.Ide.Workbench ActiveDocument="courseworkApiGateway/Properties/launchSettings.json">
     <Files>
       <File FileName="courseworkApiGateway/Properties/launchSettings.json" Line="1" Column="1" />
@@ -28,15 +24,16 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.workoutService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.ItemProperties.predictionService PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.courseworkBackend PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.courseworkApiGateway PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <DisabledProjects>
     <String>userLoginService/loginService.csproj</String>
   </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.userService FirstBuild="True" PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.ItemProperties.loginService PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.ItemProperties.courseworkBackend PreferredExecutionTarget="/Applications/Firefox.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Run All " Name="Run All ">
       <Items>
@@ -48,4 +45,6 @@
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.workoutService PreferredExecutionTarget="/Applications/Firefox.app" />
 </Properties>

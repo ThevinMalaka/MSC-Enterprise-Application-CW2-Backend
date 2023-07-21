@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace loginService.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230720173227_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20230721024038_InitialCreateLocal")]
+    partial class InitialCreateLocal
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
