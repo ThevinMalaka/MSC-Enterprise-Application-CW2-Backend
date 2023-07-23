@@ -1,26 +1,45 @@
 ﻿{
   "Routes": [
     {
-      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamPathTemplate": "/{everything}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "userloginservice.azurewebsites.net"
+          "Host": "fitnessappuserservice.azurewebsites.net"
         }
       ],
-      "UpstreamPathTemplate": "/login",
-      "UpstreamHttpMethod": [ "GET" ]
+      "UpstreamPathTemplate": "/user/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ]
     },
     {
-      "DownstreamPathTemplate": "/api/{everything}",
+      "DownstreamPathTemplate": "/{everything}",
       "DownstreamScheme": "https",
       "DownstreamHostAndPorts": [
         {
-          "Host": "courseworkbackend.azurewebsites.net"
+          "Host": "fitnessappworkoutservice.azurewebsites.net"
         }
       ],
-      "UpstreamPathTemplate": "/{everything}",
-      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+      "UpstreamPathTemplate": "/workout/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "fitnessapppredictionservice.azurewebsites.net"
+        }
+      ],
+      "UpstreamPathTemplate": "/prediction/{everything}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
     }
   ]
 }

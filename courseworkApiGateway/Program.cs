@@ -9,53 +9,6 @@ using Microsoft.IdentityModel.Tokens;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
-//var builder = WebApplication.CreateBuilder(args);
-
-//// Add services to the container.
-//builder.Services.AddOcelot(builder.Configuration);
-
-//var app = builder.Build();
-
-//// Configure the HTTP request pipeline.
-//if (app.Environment.IsDevelopment())
-//{
-//    app.UseDeveloperExceptionPage();
-//}
-
-//app.UseHttpsRedirection();
-
-//app.MapWhen(
-//    context => context.Request.Path.Value.IndexOf("swagger", StringComparison.CurrentCultureIgnoreCase) >= 0,
-//    appBuilder => { appBuilder.UseRouting(); }
-//);
-
-//app.UseOcelot().Wait();
-
-//app.Run();
-
-
-// ---------------------
-
-//var builder = WebApplication.CreateBuilder(args);
-
-//builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
-//builder.Services.AddOcelot(builder.Configuration);
-
-//var app = builder.Build();
-//app.MapGet("/", () => "Hello World");
-
-//app.UseHttpsRedirection();
-
-//app.UseAuthorization();
-
-//app.MapControllers();
-//await app.UseOcelot();
-
-//app.Run();
-
-
-
-
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -66,7 +19,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowMyOrigin",
     builder =>
     {
-        builder.WithOrigins("http://localhost:3000") // React Web app running URL
+        builder.WithOrigins(
+            "http://localhost:3000",
+            "https://fitnessappweb.z13.web.core.windows.net"
+            ) // React Web app running URL
             .AllowAnyHeader()
             .AllowAnyMethod();
     });
