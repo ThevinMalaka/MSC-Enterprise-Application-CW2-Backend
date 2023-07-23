@@ -25,6 +25,14 @@ namespace workoutService.Services
             return await _context.UserWorkoutEnrollments.FindAsync(id);
         }
 
+        public async Task<UserWorkoutEnrollmentModel> GetLatestUserWorkoutEnrollmentByUserIdAsync(int id)
+        {
+            return await _context.UserWorkoutEnrollments
+                                 .Where(uwe => uwe.UserId == id)
+                                 .OrderByDescending(uwe => uwe.Id)
+                                 .FirstOrDefaultAsync();
+        }
+
         public async Task<UserWorkoutEnrollmentModel> CreateUserWorkoutEnrollmentAsync(UserWorkoutEnrollmentCreateDTO userWorkoutEnrollment)
         {
 

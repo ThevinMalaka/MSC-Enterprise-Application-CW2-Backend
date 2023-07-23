@@ -52,6 +52,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 builder.Services.AddScoped<WorkoutService>();
 builder.Services.AddScoped<WorkoutPlanService>();
 builder.Services.AddScoped<UserWorkoutEnrollmentService>();
+builder.Services.AddScoped<ReportService>();
 
 
 // Add Swagger services

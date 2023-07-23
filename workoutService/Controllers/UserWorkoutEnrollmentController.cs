@@ -33,6 +33,14 @@ namespace workoutService.Controllers
             return await _userWorkoutEnrollmentService.GetUserWorkoutEnrollmentsByUserIdAsync(userId);
         }
 
+        [HttpGet("latest/user/{userId}")]
+        //[Authorize]
+        public async Task<UserWorkoutEnrollmentModel> GetLatestEnrollmentByUserId(int userId)
+        {
+            //get the latest user workout enrollment from the database
+            return await _userWorkoutEnrollmentService.GetLatestUserWorkoutEnrollmentByUserIdAsync(userId);
+        }
+
         [HttpGet("single/{id}")]
         //[Authorize]
         public async Task<UserWorkoutEnrollmentModel> GetEnrollmentById(int id)
