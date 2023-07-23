@@ -1,18 +1,6 @@
-﻿//using System;
-//namespace workoutService.Data
-//{
-//	public class ApplicationDbContext
-//	{
-//		public ApplicationDbContext()
-//		{
-//		}
-//	}
-//}
-
-
-
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using workoutService;
+using workoutService.Entities;
 
 public class ApplicationDbContext : DbContext
 {
@@ -20,5 +8,9 @@ public class ApplicationDbContext : DbContext
     {
     }
 
-    public DbSet<WeatherForecast> WeatherForecasts { get; set; }
+    //public DbSet<WeatherForecast> WeatherForecasts { get; set; }
+    public DbSet<WorkoutModel> Workouts { get; set; }
+    public DbSet<WorkoutPlanModel> WorkoutPlans { get; set; }
+    public DbSet<WorkoutPlanItemsModel> WorkoutPlanItems { get; set; }
+
 }
