@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "blqbmDuX1oiPM18iOeKZYOCsuPRSYjINVVmV1Otl8T4=",
+  "Source": "workoutService",
+  "BasePath": "_content/workoutService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

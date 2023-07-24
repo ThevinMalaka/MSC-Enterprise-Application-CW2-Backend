@@ -106,10 +106,10 @@ using (var scope = app.Services.CreateScope())
     if (!dbContext.WorkoutPlans.Any())
     {
         dbContext.WorkoutPlans.AddRange(
-            new WorkoutPlanModel { Id = 1, Name = "Plan 1", Description = "Description 1", Difficulty = "Beginner", Duration = 10, TotalMET = 5.5 },
-            new WorkoutPlanModel { Id = 2, Name = "Plan 2", Description = "Description 2", Difficulty = "Intermediate", Duration = 15, TotalMET = 6.5 },
-            new WorkoutPlanModel { Id = 3, Name = "Plan 3", Description = "Description 3", Difficulty = "Advanced", Duration = 20, TotalMET = 7.5 },
-            new WorkoutPlanModel { Id = 4, Name = "Plan 4", Description = "Description 4", Difficulty = "Expert", Duration = 20, TotalMET = 8.5 }
+            new WorkoutPlanModel { Id = 1, Name = "Plan 1", Description = "Description 1", Difficulty = "Beginner", Duration = 10, TotalMET = 10 },
+            new WorkoutPlanModel { Id = 2, Name = "Plan 2", Description = "Description 2", Difficulty = "Intermediate", Duration = 30, TotalMET = 20 },
+            new WorkoutPlanModel { Id = 3, Name = "Plan 3", Description = "Description 3", Difficulty = "Advanced", Duration = 45, TotalMET = 30 },
+            new WorkoutPlanModel { Id = 4, Name = "Plan 4", Description = "Description 4", Difficulty = "Expert", Duration = 90, TotalMET = 40 }
         );
     }
 
