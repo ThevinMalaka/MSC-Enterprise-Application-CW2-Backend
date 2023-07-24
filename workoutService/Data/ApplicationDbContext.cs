@@ -13,5 +13,6 @@ public class ApplicationDbContext : DbContext
     public DbSet<WorkoutPlanModel> WorkoutPlans { get; set; }
     public DbSet<WorkoutPlanItemsModel> WorkoutPlanItems { get; set; }
     public DbSet<UserWorkoutEnrollmentModel> UserWorkoutEnrollments { get; set; }
+    public DbSet<PredictionModel> Predictions { get; set; }
 
 }

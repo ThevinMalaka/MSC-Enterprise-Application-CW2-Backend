@@ -1,70 +1,39 @@
 ﻿<Properties StartupConfiguration="Run All ">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Run All " Name="Run All ">
+      <Items>
+        <StartupItem ItemId="{91E83E12-1B0B-4F2A-BEE9-26E77ECD28EE}" ItemName="courseworkApiGateway" ConfigurationId="https" />
+        <StartupItem ItemId="{246832E7-1215-4A13-B250-3FCF3F0512F4}" ItemName="courseworkBackend" ConfigurationId="https" />
+        <StartupItem ItemId="{86F40F72-A964-4680-946B-6598703D97CE}" ItemName="userService" ConfigurationId="https" />
+        <StartupItem ItemId="{DD40575B-CC7F-4EF4-B4ED-4A337F611CAB}" ItemName="workoutService" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>userLoginService/loginService.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.courseworkApiGateway PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.ItemProperties.courseworkBackend PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="predictionService/Services/PredictionService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="workoutService/Services/PredictionService.cs">
     <Files>
-      <File FileName="courseworkApiGateway/ocelot.json" Line="46" Column="6" />
-      <File FileName="userService/Program.cs" Line="47" Column="1" />
-      <File FileName="userService/Data/ApplicationDbContext.cs" Line="12" Column="48" />
-      <File FileName="userService/Properties/launchSettings.json" />
-      <File FileName="userService/appsettings.json" Line="13" Column="1" />
-      <File FileName="userService/Entities/UserModel.cs" />
-      <File FileName="userService/Controllers/UserController.cs" Line="32" Column="39" />
-      <File FileName="courseworkApiGateway/Program.cs" />
-      <File FileName="workoutService/Controllers/WeatherForecastController.cs" Line="22" Column="130" />
-      <File FileName="userService/Controllers/UserWeightController.cs" Line="56" Column="65" />
-      <File FileName="userService/Entities/UserWeightModel.cs" Line="18" Column="1" />
-      <File FileName="workoutService/Program.cs" Line="37" Column="6" />
-      <File FileName="workoutService/appsettings.json" Line="4" Column="5" />
-      <File FileName="workoutService/Data/ApplicationDbContext.cs" />
-      <File FileName="userService/Entities/CheatMealModel.cs" />
-      <File FileName="userService/Controllers/CheatMealController.cs" Line="60" Column="20" />
-      <File FileName="userService/Services/CheatMealService.cs" />
-      <File FileName="userService/DTO/CheatMealCreationDTO.cs" />
-      <File FileName="userService/DTO/WeightLogCreationDTO.cs" />
-      <File FileName="userService/Services/UserService.cs" />
-      <File FileName="userService/Services/UserWeightService.cs" Line="99" Column="1" />
-      <File FileName="userService/DTO/UserRegistrationDTO.cs" />
-      <File FileName="userService/DTO/UserWeightDto.cs" Line="13" Column="1" />
-      <File FileName="courseworkApiGateway/appsettings.json" />
-      <File FileName="courseworkApiGateway/Controllers/WeatherForecastController.cs" />
-      <File FileName="workoutService/WeatherForecast.cs" />
-      <File FileName="workoutService/Controllers/WorkoutController.cs" Line="83" Column="22" />
-      <File FileName="workoutService/Services/WorkoutService.cs" Line="9" Column="46" />
-      <File FileName="workoutService/Entities/WorkoutModel.cs" Line="16" Column="1" />
-      <File FileName="workoutService/appsettings.Development.json" Line="4" Column="32" />
-      <File FileName="courseworkBackend/Program.cs" />
-      <File FileName="workoutService/Controllers/WorkoutPlanController.cs" Line="27" Column="22" />
-      <File FileName="workoutService/Services/WorkoutPlanService.cs" />
-      <File FileName="workoutService/Entities/WorkoutPlanModel.cs" Line="16" Column="1" />
-      <File FileName="workoutService/Entities/WorkoutPlanItemsModel.cs" Line="19" Column="37" />
-      <File FileName="workoutService/DTO/WorkoutPlanDTO.cs" />
-      <File FileName="workoutService/DTO/WorkoutPlanItemDTO.cs" />
-      <File FileName="workoutService/DTO/WorkoutDTO.cs" />
-      <File FileName="workoutService/Controllers/UserWorkoutEnrollmentController.cs" Line="36" Column="42" />
-      <File FileName="workoutService/Services/UserWorkoutEnrollmentService.cs" Line="20" Column="103" />
-      <File FileName="workoutService/Entities/UserWorkoutEnrollmentModel.cs" Line="9" Column="8" />
-      <File FileName="workoutService/DTO/UserWorkoutEnrollmentCreateDTO.cs" Line="11" Column="34" />
-      <File FileName="workoutService/DTO/UserWorkoutEnrollmentUpdateDTO.cs" />
-      <File FileName="workoutService/Controllers/ReportController.cs" Line="20" Column="44" />
-      <File FileName="workoutService/Services/ReportService.cs" Line="23" Column="27" />
-      <File FileName="workoutService/DTO/ReportDTO.cs" Line="9" Column="33" />
-      <File FileName="predictionService/Program.cs" Line="21" Column="54" />
-      <File FileName="predictionService/appsettings.json" Line="6" Column="26" />
-      <File FileName="predictionService/Data/ApplicationDbContext.cs" Line="11" Column="40" />
-      <File FileName="predictionService/WeatherForecast.cs" Line="1" Column="1" />
-      <File FileName="predictionService/Controllers/PredictionController.cs" Line="28" Column="56" />
-      <File FileName="predictionService/Entities/PredictionModel.cs" Line="6" Column="30" />
-      <File FileName="predictionService/Services/PredictionService.cs" Line="30" Column="65" />
-      <File FileName="courseworkBackend/Controllers/CheatMealController.cs" Line="27" Column="19" />
-      <File FileName="predictionService/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
-      <File FileName="predictionService/DTO/UserWeightDto.cs" Line="4" Column="28" />
-      <File FileName="predictionService/Entities/UserWorkoutEnrollmentModel.cs" Line="15" Column="42" />
+      <File FileName="workoutService/Services/PredictionService.cs" Line="29" Column="164" />
+      <File FileName="predictionService/Services/PredictionService.cs" Line="42" Column="13" />
+      <File FileName="predictionService/appsettings.json" Line="4" Column="5" />
+      <File FileName="workoutService/appsettings.json" Line="5" Column="23" />
+      <File FileName="workoutService/Program.cs" Line="28" Column="27" />
+      <File FileName="workoutService/Controllers/PredictionController.cs" Line="24" Column="10" />
+      <File FileName="workoutService/Data/ApplicationDbContext.cs" Line="15" Column="39" />
+      <File FileName="workoutService/Entities/PredictionModel.cs" Line="17" Column="1" />
+      <File FileName="workoutService/Controllers/UserWorkoutEnrollmentController.cs" Line="72" Column="1" />
+      <File FileName="workoutService/Entities/UserWorkoutEnrollmentModel.cs" Line="7" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="courseworkBackend" expanded="True">
-            <Node name="predictionService" expanded="True">
+            <Node name="workoutService" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
               <Node name="DTO" expanded="True" />
@@ -73,38 +42,15 @@
                 <Node name="PredictionService.cs" selected="True" />
               </Node>
             </Node>
-            <Node name="workoutService" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Entities" expanded="True" />
-              <Node name="Services" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
-            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.workoutService PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.predictionService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.predictionService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.ItemProperties.userService PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.courseworkApiGateway PreferredExecutionTarget="/Applications/Firefox.app" />
-  <DisabledProjects>
-    <String>userLoginService/loginService.csproj</String>
-  </DisabledProjects>
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Run All " Name="Run All ">
-      <Items>
-        <StartupItem ItemId="{91E83E12-1B0B-4F2A-BEE9-26E77ECD28EE}" ItemName="courseworkApiGateway" ConfigurationId="https" />
-        <StartupItem ItemId="{246832E7-1215-4A13-B250-3FCF3F0512F4}" ItemName="courseworkBackend" ConfigurationId="https" />
-        <StartupItem ItemId="{960160E9-B4A6-45D7-B66C-BA53091AA26A}" ItemName="predictionService" ConfigurationId="https" />
-        <StartupItem ItemId="{86F40F72-A964-4680-946B-6598703D97CE}" ItemName="userService" ConfigurationId="https" />
-        <StartupItem ItemId="{DD40575B-CC7F-4EF4-B4ED-4A337F611CAB}" ItemName="workoutService" ConfigurationId="https" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.workoutService PreferredExecutionTarget="/Applications/Firefox.app" />
 </Properties>

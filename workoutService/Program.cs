@@ -53,6 +53,7 @@ builder.Services.AddScoped<WorkoutService>();
 builder.Services.AddScoped<WorkoutPlanService>();
 builder.Services.AddScoped<UserWorkoutEnrollmentService>();
 builder.Services.AddScoped<ReportService>();
+builder.Services.AddScoped<PredictionService>();
 
 
 // Add Swagger services

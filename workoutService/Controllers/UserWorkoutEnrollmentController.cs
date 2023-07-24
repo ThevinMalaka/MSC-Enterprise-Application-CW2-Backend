@@ -16,12 +16,12 @@ namespace workoutService.Controllers
     public class UserWorkoutEnrollmentController : Controller
     {
         private readonly UserWorkoutEnrollmentService _userWorkoutEnrollmentService;
-        //private readonly PredictionService _predictionService;
+        private readonly PredictionService _predictionService;
 
-        public UserWorkoutEnrollmentController(UserWorkoutEnrollmentService userWorkoutEnrollmentService)
+        public UserWorkoutEnrollmentController(UserWorkoutEnrollmentService userWorkoutEnrollmentService, PredictionService predictionService)
         {
             _userWorkoutEnrollmentService = userWorkoutEnrollmentService;
-            //_predictionService = predictionService;
+            _predictionService = predictionService;
         }
 
 
@@ -65,7 +65,7 @@ namespace workoutService.Controllers
             Console.WriteLine("User ID:--------------------- " + userId);
 
             //create a new prediction
-            //var predictionResult = await _predictionService.CreatePredictionAsync(userId);
+            var predictionResult = await _predictionService.CreatePredictionAsync(userId);
             return result;
 
         }
