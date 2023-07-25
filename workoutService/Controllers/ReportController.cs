@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using workoutService.DTO;
 using workoutService.Services;
@@ -22,6 +23,7 @@ namespace workoutService.Controllers
 
         //get report by user id
         [HttpGet("{userId}")]
+        [Authorize]
         public async Task<List<ReportDTO>> Get(int userId)
         {
             //get all reports from the database

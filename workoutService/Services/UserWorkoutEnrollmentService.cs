@@ -14,7 +14,6 @@ namespace workoutService.Services
             _context = context;
         }
 
-
         public async Task<List<UserWorkoutEnrollmentModel>> GetUserWorkoutEnrollmentsByUserIdAsync(int id)
         {
             return await _context.UserWorkoutEnrollments.Where(uwe => uwe.UserId == id).ToListAsync();
@@ -35,23 +34,6 @@ namespace workoutService.Services
 
         public async Task<UserWorkoutEnrollmentModel> CreateUserWorkoutEnrollmentAsync(UserWorkoutEnrollmentCreateDTO userWorkoutEnrollment)
         {
-
-            //var newUserWorkoutEnrollment = new UserWorkoutEnrollmentModel
-            //{
-            //    UserId = userWorkoutEnrollment.UserId,
-            //    WorkoutPlanId = userWorkoutEnrollment.WorkoutPlanId,
-            //    Date = userWorkoutEnrollment.Date,
-            //    CompletedDays = userWorkoutEnrollment.CompletedDays,
-            //    StartDate = userWorkoutEnrollment.StartDate,
-            //    Status = "ACTIVE"
-            //};
-
-            //object value = _context.UserWorkoutEnrollments.Add(newUserWorkoutEnrollment);
-            //await _context.SaveChangesAsync();
-            //return newUserWorkoutEnrollment;
-
-            Console.WriteLine($"UserId ------------->: {userWorkoutEnrollment.UserId}");
-            Console.WriteLine($"WorkoutPlanId ------------->: {userWorkoutEnrollment.WorkoutPlanId}");
 
             var workoutPlanExists = await _context.WorkoutPlans.AnyAsync(w => w.Id == userWorkoutEnrollment.WorkoutPlanId);
 

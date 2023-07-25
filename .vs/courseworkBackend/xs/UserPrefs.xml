@@ -1,56 +1,48 @@
 ﻿<Properties StartupConfiguration="Run All ">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.userService PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.ItemProperties.courseworkApiGateway PreferredExecutionTarget="/Applications/Firefox.app" />
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Run All " Name="Run All ">
       <Items>
         <StartupItem ItemId="{91E83E12-1B0B-4F2A-BEE9-26E77ECD28EE}" ItemName="courseworkApiGateway" ConfigurationId="https" />
-        <StartupItem ItemId="{246832E7-1215-4A13-B250-3FCF3F0512F4}" ItemName="courseworkBackend" ConfigurationId="https" />
         <StartupItem ItemId="{86F40F72-A964-4680-946B-6598703D97CE}" ItemName="userService" ConfigurationId="https" />
         <StartupItem ItemId="{DD40575B-CC7F-4EF4-B4ED-4A337F611CAB}" ItemName="workoutService" ConfigurationId="https" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <DisabledProjects>
-    <String>userLoginService/loginService.csproj</String>
-  </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.courseworkApiGateway PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.courseworkBackend PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="workoutService/Services/PredictionService.cs">
+  <MonoDevelop.Ide.ItemProperties.workoutService PreferredExecutionTarget="/Applications/Firefox.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.Workbench ActiveDocument="userService/Services/UserService.cs">
     <Files>
-      <File FileName="workoutService/Services/PredictionService.cs" Line="29" Column="164" />
-      <File FileName="predictionService/Services/PredictionService.cs" Line="42" Column="13" />
-      <File FileName="predictionService/appsettings.json" Line="4" Column="5" />
-      <File FileName="workoutService/appsettings.json" Line="5" Column="23" />
-      <File FileName="workoutService/Program.cs" Line="28" Column="27" />
-      <File FileName="workoutService/Controllers/PredictionController.cs" Line="24" Column="10" />
-      <File FileName="workoutService/Data/ApplicationDbContext.cs" Line="15" Column="39" />
-      <File FileName="workoutService/Entities/PredictionModel.cs" Line="17" Column="1" />
-      <File FileName="workoutService/Controllers/UserWorkoutEnrollmentController.cs" Line="72" Column="1" />
-      <File FileName="workoutService/Entities/UserWorkoutEnrollmentModel.cs" Line="7" Column="15" />
+      <File FileName="userService/Controllers/UserWeightController.cs" Line="18" Column="6" />
+      <File FileName="userService/Entities/CheatMealModel.cs" Line="1" Column="1" />
+      <File FileName="userService/Services/CheatMealService.cs" Line="39" Column="6" />
+      <File FileName="userService/Controllers/CheatMealController.cs" Line="30" Column="10" />
+      <File FileName="userService/Data/ApplicationDbContext.cs" Line="17" Column="1" />
+      <File FileName="userService/Controllers/UserController.cs" Line="103" Column="20" />
+      <File FileName="userService/Services/UserService.cs" Line="33" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="courseworkBackend" expanded="True">
-            <Node name="workoutService" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="DTO" expanded="True" />
-              <Node name="Entities" expanded="True" />
+            <Node name="courseworkApiGateway" expanded="True" />
+            <Node name="userService" expanded="True">
               <Node name="Services" expanded="True">
-                <Node name="PredictionService.cs" selected="True" />
+                <Node name="UserService.cs" selected="True" />
               </Node>
             </Node>
+            <Node name="workoutService" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.predictionService PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.userService PreferredExecutionTarget="/Applications/Firefox.app" />
-  <MonoDevelop.Ide.ItemProperties.workoutService PreferredExecutionTarget="/Applications/Firefox.app" />
+  <DisabledProjects>
+    <String>userLoginService/loginService.csproj</String>
+    <String>courseworkBackend/courseworkBackend.csproj</String>
+    <String>predictionService/predictionService.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

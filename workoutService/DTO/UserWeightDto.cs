@@ -3,13 +3,6 @@ using System.Text.Json.Serialization;
 
 namespace workoutService.DTO
 {
-    //public class UserWeightDto
-    //{
-    //       public int Id { get; set; }
-    //       public DateTime Date { get; set; }
-    //       public double Weight { get; set; }
-    //       public int UserId { get; set; }
-    //   }
     public class UserWeightDto
     {
         [JsonPropertyName("id")]

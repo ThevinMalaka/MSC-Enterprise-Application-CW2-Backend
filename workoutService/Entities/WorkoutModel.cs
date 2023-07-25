@@ -9,7 +9,6 @@ namespace workoutService.Entities
         public double MET { get; set; }
 
         public ICollection<WorkoutPlanItemsModel> WorkoutPlanItems { get; set; }
-        //public ICollection<UserWorkoutModel> UserWorkout { get; set; }
     }
 }
 

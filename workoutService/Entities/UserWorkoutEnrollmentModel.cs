@@ -9,10 +9,6 @@ namespace workoutService.Entities
         public int Id { get; set; }
         public DateTime Date { get; set; }
         public int UserId { get; set; }
-        //public UserModel User { get; set; }
-
-        //[ForeignKey("UserModel")]
-        //public int UserId { get; set; }
 
         [JsonIgnore]
         public WorkoutPlanModel WorkoutPlan { get; set; }

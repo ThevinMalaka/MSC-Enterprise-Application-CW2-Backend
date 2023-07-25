@@ -7,8 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 using workoutService.Entities;
 using workoutService.Services;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace workoutService.Controllers
 {
     [Route("[controller]")]
@@ -23,7 +21,7 @@ namespace workoutService.Controllers
 
         // GET: api/Workout
         [HttpGet]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<WorkoutModel>>> GetWorkouts()
         {
             return Ok(await _workoutService.GetWorkoutsAsync());
@@ -31,7 +29,7 @@ namespace workoutService.Controllers
 
         // GET: api/Workout/5
         [HttpGet("{id}")]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<WorkoutModel>> GetWorkout(int id)
         {
             var workout = await _workoutService.GetWorkoutByIdAsync(id);
@@ -46,7 +44,7 @@ namespace workoutService.Controllers
 
         // POST: api/Workout
         [HttpPost]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<WorkoutModel>> PostWorkout([FromBody] WorkoutModel workout)
         {
             var createdWorkout = await _workoutService.CreateWorkoutAsync(workout);
@@ -57,7 +55,7 @@ namespace workoutService.Controllers
 
         // PUT: api/Workout/5
         [HttpPut("{id}")]
-        //[Authorize]
+        [Authorize]
         public async Task<IActionResult> PutWorkout(int id, [FromBody] WorkoutModel workout)
         {
             if (id != workout.Id)
@@ -71,7 +69,6 @@ namespace workoutService.Controllers
             }
             catch (Exception)
             {
-                // You may want to improve this part by checking if the entity actually exists before trying to update.
                 return NotFound();
             }
 
@@ -80,7 +77,7 @@ namespace workoutService.Controllers
 
         // DELETE: api/Workout/5
         [HttpDelete("{id}")]
-        //[Authorize]
+        [Authorize]
         public async Task<IActionResult> DeleteWorkout(int id)
         {
             var workout = await _workoutService.DeleteWorkoutAsync(id);

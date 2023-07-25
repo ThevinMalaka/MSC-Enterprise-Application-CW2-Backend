@@ -26,7 +26,7 @@ namespace workoutService.Controllers
 
 
         [HttpGet("user/{userId}")]
-        //[Authorize]
+        [Authorize]
         public async Task<List<UserWorkoutEnrollmentModel>> Get(int userId)
         {
             //get all user workout enrollments from the database
@@ -34,7 +34,7 @@ namespace workoutService.Controllers
         }
 
         [HttpGet("latest/user/{userId}")]
-        //[Authorize]
+        [Authorize]
         public async Task<UserWorkoutEnrollmentModel> GetLatestEnrollmentByUserId(int userId)
         {
             //get the latest user workout enrollment from the database
@@ -42,7 +42,7 @@ namespace workoutService.Controllers
         }
 
         [HttpGet("single/{id}")]
-        //[Authorize]
+        [Authorize]
         public async Task<UserWorkoutEnrollmentModel> GetEnrollmentById(int id)
         {
             //get all user workout enrollments from the database
@@ -51,18 +51,12 @@ namespace workoutService.Controllers
 
         //add a new user workout enrollment
         [HttpPost("single")]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<UserWorkoutEnrollmentModel>> Post([FromBody] UserWorkoutEnrollmentCreateDTO userWorkoutEnrollment)
         {
-            //    //create a new user workout enrollment
-            //    var result = await _userWorkoutEnrollmentService.CreateUserWorkoutEnrollmentAsync(userWorkoutEnrollment);
-            //    return result; 
-
             //create a new user workout enrollment
             var result = await _userWorkoutEnrollmentService.CreateUserWorkoutEnrollmentAsync(userWorkoutEnrollment);
             var userId = userWorkoutEnrollment.UserId;
-            // print out the user id
-            Console.WriteLine("User ID:--------------------- " + userId);
 
             //create a new prediction
             var predictionResult = await _predictionService.CreatePredictionAsync(userId);
@@ -72,7 +66,7 @@ namespace workoutService.Controllers
 
         //update a user workout enrollment
         [HttpPut("single")]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<UserWorkoutEnrollmentModel>> Put(UserWorkoutEnrollmentUpdateDTO userWorkoutEnrollment)
         {
             //update a user workout enrollment
@@ -83,7 +77,7 @@ namespace workoutService.Controllers
 
         //complete single day workout
         [HttpPut("complete/{id}")]
-        //[Authorize]
+        [Authorize]
         public async Task<ActionResult<UserWorkoutEnrollmentModel>> CompleteDay(int id)
         {
             //complete a single day workout

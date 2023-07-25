@@ -8,7 +8,6 @@ public class ApplicationDbContext : DbContext
     {
     }
 
-    //public DbSet<WeatherForecast> WeatherForecasts { get; set; }
     public DbSet<WorkoutModel> Workouts { get; set; }
     public DbSet<WorkoutPlanModel> WorkoutPlans { get; set; }
     public DbSet<WorkoutPlanItemsModel> WorkoutPlanItems { get; set; }
