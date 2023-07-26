@@ -12,29 +12,26 @@
   </MultiItemStartupConfigurations>
   <MonoDevelop.Ide.ItemProperties.workoutService PreferredExecutionTarget="/Applications/Firefox.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.Workbench ActiveDocument="userService/Services/UserService.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="userService/appsettings.json">
     <Files>
-      <File FileName="userService/Controllers/UserWeightController.cs" Line="18" Column="6" />
-      <File FileName="userService/Entities/CheatMealModel.cs" Line="1" Column="1" />
-      <File FileName="userService/Services/CheatMealService.cs" Line="39" Column="6" />
-      <File FileName="userService/Controllers/CheatMealController.cs" Line="30" Column="10" />
-      <File FileName="userService/Data/ApplicationDbContext.cs" Line="17" Column="1" />
-      <File FileName="userService/Controllers/UserController.cs" Line="103" Column="20" />
+      <File FileName="userService/Controllers/UserWeightController.cs" />
+      <File FileName="userService/Entities/CheatMealModel.cs" />
+      <File FileName="userService/Services/CheatMealService.cs" />
+      <File FileName="userService/Controllers/CheatMealController.cs" />
+      <File FileName="userService/Data/ApplicationDbContext.cs" />
+      <File FileName="userService/Controllers/UserController.cs" />
       <File FileName="userService/Services/UserService.cs" Line="33" Column="40" />
+      <File FileName="workoutService/appsettings.json" Line="1" Column="1" />
+      <File FileName="workoutService/Controllers/ReportController.cs" Line="18" Column="1" />
+      <File FileName="userService/appsettings.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="courseworkBackend" expanded="True">
-            <Node name="courseworkApiGateway" expanded="True" />
-            <Node name="userService" expanded="True">
-              <Node name="Services" expanded="True">
-                <Node name="UserService.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="workoutService" expanded="True" />
-          </Node>
+          <Node name="courseworkBackend" expanded="True" />
         </State>
       </Pad>
     </Pads>

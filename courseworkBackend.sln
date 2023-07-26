@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1705.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "courseworkBackend", "courseworkBackend\courseworkBackend.csproj", "{246832E7-1215-4A13-B250-3FCF3F0512F4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "courseworkApiGateway", "courseworkApiGateway\courseworkApiGateway.csproj", "{91E83E12-1B0B-4F2A-BEE9-26E77ECD28EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "workoutService", "workoutService\workoutService.csproj", "{DD40575B-CC7F-4EF4-B4ED-4A337F611CAB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "predictionService", "predictionService\predictionService.csproj", "{960160E9-B4A6-45D7-B66C-BA53091AA26A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "userService", "userService\userService.csproj", "{86F40F72-A964-4680-946B-6598703D97CE}"
 EndProject

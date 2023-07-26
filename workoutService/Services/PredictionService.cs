@@ -116,7 +116,7 @@ namespace workoutService.Services
             Console.WriteLine($"EEEEEE-----weightLoss-> {weightLoss}");
 
             // average calories gain
-            var avgCaloriesGain = 1300;
+            var avgCaloriesGain = 1600;
 
             // average weight gain
             var avgWeightGain = (avgCaloriesGain * workoutDays) / 7700;
